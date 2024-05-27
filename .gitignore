@@ -1,4 +1,3 @@
-generations/*
 venv
 __pycache__/
 .idea/

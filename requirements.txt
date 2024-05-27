@@ -2,3 +2,6 @@ requests
 beautifulsoup4
 urllib3
 PyPDF2
+readability
+python-dotenv
+pyhtml2pdf

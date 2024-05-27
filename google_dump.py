@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 import urllib.parse
-from readability import Document
+# from readability import Document
 domain_preference = ["www.geeksforgeeks.org", "www.tutorialspoint.com", "www.javatpoint.com", "www.redhat.com"]
 from collections import Counter
 

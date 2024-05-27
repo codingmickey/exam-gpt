@@ -40,8 +40,8 @@ def organize_pyq(file_path,subject_name, output_folder):
 
 if __name__ == "__main__":
     from api.prompts import SUBJECT_NAME
-    pyq_file = "generations/syllabus/pyq_data_mining_2018.txt" # Use os.path.join for the path
-    year = "2018"
+    pyq_file = "example_syllabus.txt" # Use os.path.join for the path
+    year = "2023"
     output_folder = os.path.join("generations", "PYQ", f"{SUBJECT_NAME}_{year}")  # Use os.path.join for the path
 
     # Create the output folder if it doesn't exist

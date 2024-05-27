@@ -1,75 +1,32 @@
 Syllabus:
 
 Module I:
-1. Basic of Cryptography
-2. Secret key cryptography
-3. Types of attack
-4. Substitution ciphers
-5. Transposition ciphers
-6. Block ciphers and stream ciphers
-7. Confusion and Diffusion
-8. Data encryption standard
-9. Round function
-10. Modes of operation
-11. Cryptanalysis
-12. Brute force attack
-13. Security Goals (Confidentiality, Integrity, Availability)
+1. Explain levels of parallelism.
+2. Explain Flynn’s architectural scheme.
+3. Explain Pipelining and Superscalar Execution with example.
+4. Explain various parameters to evaluate memory system performance and different approaches to hide memory latency.
+5. Explain Amdahl’s Law and solve the following problem: 95% of a program’s execution time occurs inside a loop that can be executed in parallel. What is the maximum speedup expected from a parallel version of the program executing on 8 CPUs?
 
 Module II:
-1. Public key Cryptography
-2. Modulo arithmetic
-3. Greatest common divisor
-4. Euclidean algorithm
-5. RSA algorithm
-6. Hash function
-7. Attack on collision resistance
-8. Diffie Hellman key exchange
-9. Digital signature standard
-10. Elliptic curve cryptography
+1. Compare the buffered blocking message passing operation with the non-buffered blocking message passing operation.
+2. Compare MPI_Send and MPI_Recv.
+3. Explain recursive decomposition technique with example.
+4. Explain exploratory decomposition technique with example.
+5. Explain OpenMP Programming Model with thread implementation.
 
 Module III:
-1. Authentication: One way Authentication
-2. Password based
-3. Certificate based
-4. Mutual Authentication
-5. Secret based
-6. Asymmetric Authentication and key agreement
-7. Centralized Authentication
-8. Eavesdropping
-9. Kerberos
-10. IP security overview: security association & Encapsulating security payload
-11. Tunnel and transfer modes
-12. Internet key exchange protocol
-13. Secure Socket Layer(SSL)
-14. Transport Layer Security (TLS)
-
-Module IV:
-1. Software vulnerabilities: Phishing Attacks
-2. Buffer overflow vulnerability
-3. Format String attack
-4. Cross Site Scripting
-5. SQL injection Attacks
-6. Email security: Security services of E-mail
-7. Establishing keys
-8. Privacy
-9. Authentication of the source
-10. Message integrity
-11. Non-Repudiation
-12. Viruses
-13. Worms
-14. Malware
-
-Module V:
-1. Web Issue: Introduction
-2. Uniform Resource Locator/uniform resource identify
-3. HTTP
-4. Cookies
-5. Web security problem
-6. Penetration Testing
-7. Firewalls: functionality
-8. Policies and Access Control
-9. Packet filters
-10. Application level gateway
-11. Encrypted tunnel
-12. Security architecture
-13. Introduction to intrusion detection system
+1. Explain Pipelining and Superscalar Execution.
+2. Explain Flynn's Classification model.
+3. Explain Feng's Classification model.
+4. Explain MPI routines.
+5. Architecture of an Ideal Parallel Computer.
+6. Explain principal parameters that determine the communication latency.
+7. Explain the Building BLocks of MPI.
+8. Explain recursive decomposition and data-decomposition.
+9. Explain exploratory decomposition and speculative decomposition.
+10. Explain the applications of High Performance Computing.
+11. Compare Data-Parallel Model and Task Graph Model.
+12. Compare Work Pool Model and Master-Slave Model.
+13. Explain Synchronization Primitives in Pthreads.
+14. Define Speedup, execution time, and efficiency, cost and scalability with example.
+15. Explain Amdahl’s law.
